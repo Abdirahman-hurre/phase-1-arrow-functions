@@ -5,10 +5,8 @@ const divide = function (num1, num2) {
       return 2000 / 100;
     }
 }
-const square= num => {
-    return num * num;
-}
+const square= (x) => x * x;
+square (2);
 
-const add = (num3, num4 ) => {
-    return num3 + num4;
-} 
+const add = (a, b ) => a+ b;
+add (2 ,3)
